@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signup{
+    width: 100%;
+    max-width: 50rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5.5rem 3.5rem;
+}
+.signup_heading{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.signup_already{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 3.5rem;
+}
+.signup_link{
+    color: #4779ff;
+    font-size: inherit;
+}
+.signup_link-under{
+    text-decoration: none;
+}
+.form_group{
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.form_group--2{
+    display: flex;
+    justify-content: space-between;
+}
+.form_input{
+    border: 1px solid #eee;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    transition: .25s ease;
+}
+.form_input:focus{
+    border-color: #6a5af9;
+}
+.form_label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 21px;
+    user-select: none;
+    color: #999;
+    pointer-events: none;
+    transition: .25s ease;
+}
+.form_input:focus + .form_label, .form_input:valid + .form_label{
+    top: 0;
+    background-color: white;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+.form_group--2 > .form_input{
+    width: calc(50% - 2.5px);
+}
+.form_input::-webkit-input-placeholder{
+    color: #ccc;
+    font-style: italic;
+}
+.form_input::-moz-input-placeholder{
+    color: #ccc;
+    font-style: italic;
+}
+.form_input::-ms-input-placeholder{
+    color: #ccc;
+    font-style: italic;
+}
+.form_submit{
+    border-radius: 10px;
+    color: white;
+    background-color: #4779FF;
+    padding: 5px 0;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_submit-text{
+    margin: 0 auto;
+}
+.form_ckcheck{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #202020;
+}
+.btn-gg{
+    width: calc(50% - 5px);
+    
+}
+.local_btn-log{
+    margin-bottom: 10%;
+}
+#ckcheck{
+    padding: 5px;
+    margin-top: 1em;
+}
+#logo{
+    width: 2em;
+    height: 2em;
+}#header{
+    background-color: #fff;
+    height: 7em;
+    width: 100%;
+
+}
+.img-logo{
+    width:11em;
+    margin: 0em 0em 0em 17em;
+    position: relative;
+}
+
+#main-menu{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    
+   
+}
+#main-menu li{
+    display: inline-block;
+     width: fit-content;
+}
+#main-menu li a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 4em;
+    margin: 3em 0em 1em 1em;
+    font-size: 1.7em;
+     overflow: hidden;
+}
+
+#footer{
+    margin-top: 2em;
+    background-color: #000;
+}
+
+.footer-title,
+.footer-title-about,
+.footer-title-media{
+    color: #fff;
+    font-weight: 600;
+    font-family: "Arial";
+    word-spacing: 2px;
+    margin-top: 4em; 
+}
+
+.footer-title-about{
+    margin-left: 6em;
+}
+
+.footer-title-media{
+    margin-left: 8em;
+    margin-bottom: 1.5em;
+}
+
+.footer-title-register{
+    margin-left: 8em;
+}
+
+.footer-title-sm-phone,
+.footer-title-sm-email,
+.footer-title-sm-add,
+.footer-title-about-sm-intro,
+.footer-title-about-sm-ab{
+    color: #fff;
+    font-family: "Time News Roman";
+    margin: 0.5em 0;
+}
+.footer-numberphone,
+.footer-email,
+.footer-intro,
+.footer-ab{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-intro,
+.footer-ab{
+    margin-left: 6em;
+}
+
+.footer-numberphone:hover,
+.footer-email:hover,
+.footer-intro:hover,
+.footer-ab:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-title-sm-phone,
+.footer-title-about-sm-intro{
+    margin-top: 1.5em;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-globe{
+    color: #fff;
+    font-size: 24px;
+}
+
+.fa-facebook{
+    margin-left: 5.4em;
+    margin-right: .5em;
+    color: #2691d9;
+    padding: 2px;
+}
+
+.fa-instagram{
+    color: #CD486B;
+    margin: -4em 0 0 7.2em;
+}
+
+.fa-globe{
+    margin: 0 0 0 .5em;
+    color: #FFB000;
+}
+
+.footer-title-media-sm-fb:hover,
+.footer-title-media-sm-ins:hover,
+.footer-title-media-sm-go{
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-copy{
+    text-align: center;
+    color: #fff;
+    margin-top: 4em;
+}
+.fghj{
+  height: 50px;
+}
